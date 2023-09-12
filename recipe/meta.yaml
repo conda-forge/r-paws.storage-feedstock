@@ -1,4 +1,4 @@
-{% set version = "0.3.0" %}
+{% set version = "0.4.0" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/paws.storage_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/paws.storage/paws.storage_{{ version }}.tar.gz
-  sha256: 678517e8764c5ec97d414f37a292f93438cd617a6b7652382d27d5c7151fc97c
+  sha256: a402894a92d12f1c4ff050687ff2da79bbdf8c6e9e5cd84b8aa6f28cc448297b
 
 build:
   merge_build_host: true  # [win]
