@@ -24,10 +24,10 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-paws.common >=0.3.0
+    - r-paws.common >=0.8.0
   run:
     - r-base
-    - r-paws.common >=0.3.0
+    - r-paws.common >=0.8.0
 
 test:
   commands:
